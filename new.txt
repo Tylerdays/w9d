@@ -1,0 +1,83 @@
+
+
+let counter=0;
+while (counter < [userAges].length && [usernames].length ){
+    console.log(`Good Job`);
+counter = counter +1
+} if (userAges > 18){
+    console.log("To old")
+} else console.log("something went wrong")
+
+let counter = 0;
+while (counter < userAges.length) {
+    console.log(userAges[counter][`usernames`]);
+    console.log(company[`managers`][counter][`salary`]);
+    if (company[`managers`][counter][`isOld`] === true) {
+        console.log(`Thanks for your years of service`);
+    }
+
+    console.log(wasTweet[`tweet`]);
+    console.log(wasTweet[`date`]);
+
+      {
+            tweet: `Some trolling`,
+            userName: ['Somebody2'],
+            date: `11-6-23`,
+            age: 37,
+        },
+        {
+            tweet: `Someone famous did a thing`,
+            userName: ['Somebody3'],
+            date: `11-6-20`,
+            age: 17,
+        },
+        {
+            tweet: `Something funny`,
+            userName: ['Somebody4'],
+            date: `11-20-22`,
+            age: 18,
+        },
+        {
+            tweet: `new meme`,
+            userName: ['Somebody5'],
+            date: `11-9-22`,
+            age: 27,
+        },
+        {
+            tweet: `Random add`,
+            userName: ['Somebody6'],
+            date: `9-1-2010`,
+            age: 50,
+        },
+        {
+            tweet: `Buy some bitcoin, we promise it's legit`,
+            userName: ['Somebody7'],
+            date: `3-4-22`,
+            age: 24,
+        },
+        {
+            tweet: `Hot takes`,
+            userName: ['Somebody8'],
+            date: `5-6-21`,
+            age: 18,
+        },
+        {
+            tweet: `something political`,
+            userName: ['Somebody9'],
+            date: `1-1-2021`,
+            age: 60,
+        },
+        {
+            tweet: `Elon musk fake acct #8`,
+            userName: ['Somebody10'],
+            date: `11-7-22`,
+            age: 20,
+        }
+
+        let counter = 0;
+while (counter < wasTweet[`tweeted`].length) {
+    console.log("counted and checked");
+
+counter = counter +1;
+
+}

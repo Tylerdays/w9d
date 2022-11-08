@@ -1,21 +1,9 @@
-let wasTweet = {
-    
-    
-    past: [
-    {
-    tweet: [`Some news`],
-    userName: 'Somebody1',
-    date: `11-6-22`,
-    age: 18,
-    }
-]
-}
+let usernames = ["`steve`, `ted`, `wilma`, `edd`, `ed`, `eddy`, `marry`, `rain`, `mike`, `scott`"];
+let userAges = [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26];
 
-if ((wasTweet[`age`] = 18)){
-    console.log(wasTweet[past]);
+if ((userAges) => 18){
+    console.log(userAges[0])
+    
 } else {
-    console.log(`can't find tweet`)
+    console.log(`Error`)
 }
-
-
-
